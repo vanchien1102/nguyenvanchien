@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Simple Form - S</title>
+	</head>
+	<body>
+		<h1 style="color: purple"> A Simple Form</h1>
+		<h2 style="color: #FF4E5D">Form fundamental</h2>
+		<form>
+		<fieldset>
+			<legend>Customer Info</legend>
+				<p>
+					<label for="fullname">Name:</label>
+						<input id="fullname" name="name" type="text" placeholder="Enter your name" autofocus size="50">
+				</p>
+				<p>
+					<label for="telephone">Telephone:</label>
+						<input id="telephone" name="telephone" type="telephone" placeholder="Enter your phonenumber" >
+				</p>
+				<p>
+					<label for="email">E-mail address:</label>
+						<input id="email" name="email" type="email" placeholder="Enter your email address" size="50">
+				</p>
+				<p>
+					<label for="gender">Gender:</label>
+						<input type="radio" name="gender" value="male" checked>Male
+						<input type="radio" name="gender" value="female">Female
+				</p>
+				<p>
+					<label for="hobbies">Hobbies:</label>
+						<input type="checkbox" name="basketball" value="male">Basketball
+						<input type="checkbox" name="football" value="female">Football
+						<input type="checkbox" name="badminton" value="female">Badminton
+				</p>
+		</fieldset>	
+		<fieldset>
+			<legend>Books</legend>
+			<label for="fullname">Name:</label>
+						<input id="fullname" name="name" type="text">
+			<label for="quantity">Quantity (Maximum 5):</label>
+						<input id="quantity" name="quantity" type="number" min="1" max="5">
+		</fieldset>
+		<input type = "submit" value = "Submit" />
+		<input type = "reset" value = "Reset" />
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Self-created form No Code</title>
+		<style>
+		
+		</style>
+	</head>
+	<body>
+	<h1>Travel reservation form</h1>
+	<h3>* denotes mandotory</h3>
+	<form>
+		<label for="fullname">Full name*:<br></label>
+			<input type="text" name="name" placeholder="FisrtName LastName" size= 50><br>
+		
+		<label for="email">Email address*:<br></label>
+			<input type="text" name="email"><br>
+		
+		<label for="tour">Select Tour Package*:<br></label>
+			<select name="tour" id="tour">
+				<option value="goa">Goa</option>
+				<option value="vietnam">Viet Nam</option>
+				<option value="anh">England</option>
+				<option value="my">United States</option>
+			</select><br>
+		
+		<label for="date">Arrival date*:<br></label>
+			<input type="date" name="date"><br>
+		
+		<label for="person">Number of person*:<br></label>
+			<input type="number" name="person"><br>
+		
+		<label for="chon">What would you want to available?*<br></label>
+			<input type="checkbox" name="board">Boarding</input><br>
+			<input type="checkbox" name="food">Fooding</input><br>
+			<input type="checkbox" name="sight">Sight seeing</input><br>
+		
+		<label for="coupon">Discount Coupon code:<br></label>
+			<input type="text" name="coupon"><br>
+		<label for="terms">Terms and conditions*</label><br>
+			<input type="radio" name="agree">I agree</input>
+			<input type="radio" name="disagree">I disagree</input>
+	</form>
+			<input type="submit" value="Complete reservation" />
+	</body>
+</html>
