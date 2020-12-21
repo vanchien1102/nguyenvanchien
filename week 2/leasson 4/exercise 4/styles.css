@@ -1,0 +1,9 @@
+.header {
+	background-color: WhiteSmoke;
+	border-bottom: 3px solid gray;
+	height: 15%;
+}
+
+.footer {
+	text-align: center;
+}
