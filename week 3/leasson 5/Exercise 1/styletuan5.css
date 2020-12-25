@@ -8,7 +8,7 @@
 .header{
 	font-family: 'Lora', serif;
 	position: relative;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('C:/Users/ADMIN/Downloads/header.jpg');
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('header.jpg');
 	background-repeat: no-repeat;
 	text-align: center;
 	background-size: cover;
@@ -73,6 +73,47 @@ button:hover{
 	opacity: 0.6;
 	cursor: pointer;
 }
-.middle{
+.body{
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 100px 125px 100px 125px;
+}
+.body h2{
+	color: #1b1b1b;
+	font-size: 30px;
+}
+.textbox{
+	width: 50%;
+    margin: auto;
+    line-height: 36px;
+    margin-bottom: 125px;
+    color: #818181;
+}
+.body img{
+	width: 100%;
+}
+.body table{
+	width: calc(100% - 20px);
+	margin: auto;
+	padding: 
+}
+.body td{
+	padding: 24px;
+	line-height: 36px;
+}
+.body h3{
+	color:#44958e;
+}
+.footer{
+	padding: 75px;
+	background-color: #1f1f1f;
+	line-height: 16px;
+	text-align: center;
+}
+.footer h5{
+	letter-spacing: 1px;
+	color: #c4c4c4;
+}
+.footer p{
+	color: #676767;
 }
