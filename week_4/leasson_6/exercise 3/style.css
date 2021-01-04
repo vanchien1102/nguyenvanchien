@@ -1,0 +1,50 @@
+.container {
+	background-color: black;
+	display: grid;
+	grid-template-columns: 40% 60%;
+	height: 300px;
+	padding-top: 50px;
+}
+footer {
+	background-color: #222222;
+	height: 100px;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+button {
+	background-color: blue;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 10px;
+}
+.container-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.label-color {
+	color: white;
+	line-height: 35px;
+}
+.box-email {
+	width: 250px;
+	margin-bottom: 20px;
+	background-color: Silver;
+	height: 50px;
+}
+.label-190x50 {
+	background-color: gray;
+	font-size: 25px;
+	text-align: center;
+	text-overflow: middle;
+	width: 190px;
+	margin: 10px;
+	margin-left: 50px;
+}
+.label-footer {
+	text-align: center;
+	text-overflow: middle;
+}
+.label-copyright {
+	padding: 25px;
+	color: white;
+}

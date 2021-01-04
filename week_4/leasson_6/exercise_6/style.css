@@ -1,0 +1,58 @@
+body {
+	background-image: url('pic_trulli.jpg');
+	background-size:100%;
+}
+.container-border {
+	padding: 35%;
+}
+.container-box {
+	background-color: white;
+	border: 3px solid back;
+	height: 600px;
+}
+.button-google{
+	width: 30%;
+	background-color: red;
+	height: 40px;
+	color: white;
+}
+.button-facebook{
+	width: 30%;
+	background-color: blue;
+	height: 40px;
+	color: white;
+}
+.button-call{
+	width: 30%;
+	background-color: green;
+	height: 40px;
+	color: white;
+}
+.text:after {
+	content: "*";
+	color: red;
+}
+.button-login {
+	width: 90%;
+	height: 40px;
+}
+.button-create {
+	width: 90%;
+	height: 40px;
+}
+.email-box {
+	width: 90%;
+	height: 40px;
+}
+.password-box {
+	width: 90%;
+	height: 40px;
+}
+.label_1 {
+	float: left;
+	margin-left: 5%;
+}
+.label_2 {
+	float: right;
+	margin-right: 5%;
+}

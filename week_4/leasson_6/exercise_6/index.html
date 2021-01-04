@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bài 6 - S</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container-border">
+			<div class="container-box">
+				<div class="text-center">
+					<h3>Đăng nhập với</h3><br>
+					<button class="button-facebook"><img src="facebook.jpg"></i><span>Facebook</span></button>
+					<button class="button-google"><img src="google.ipg">Google</button>
+					<button class="button-call"><img src="call.jpg">Phone</button><br><br>
+					<h4>Hoặc</h4>
+				</div>
+				<div>
+					<form method="POST" action="authenticate.php">
+						<div class="text-center">
+							<div>
+								<span><label for="id" class="text label_1">Email</label><br>
+								<input type="Email" class="email-box"></span>
+							</div><br>
+							<div>
+								<label for="password" class="text label_1">Mật Khẩu</label><br>
+								<input id="password" type="password" class="email-box text-center"><br>
+							</div><br>
+							<div>
+								<span class="label_1"><input type="checkbox">Tự Động Đăng Nhập</input></span>
+								<a class="label_2">Quên Mật khẩu?</a>
+							</div><br>
+						</div>
+						<div class="text-center">
+							<input type="submit" value="Đăng nhập" class="button-login">
+						</div><br>
+						<p class="text-center"><a>Bạn chưa có tài khoản?</a></p>
+						<div class="text-center"><br>
+							<input type="submit" value="Đăng kí" class="button-create">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

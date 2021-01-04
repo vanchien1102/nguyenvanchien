@@ -1,0 +1,46 @@
+.center-parent {
+    text-align: center;
+  }
+.box-user{
+    height: 30px;
+    width: 450px;
+}
+.box-name{
+    height: 30px;
+    width: 450px;
+}
+.box-login{
+    height: 30px;
+    width: 450px;
+}
+.box-email{
+    height: 30px;
+    width: 450px;
+}
+.password{
+    height: 30px;
+    width: 450px;
+}
+.laulamroi{
+    height: 30px;
+    width: 450px;
+}
+.daysofbirth{
+    height: 30px;
+    width: 450px;
+}
+.Chuky{
+    height: 60px;
+    width: 350px;
+}
+.anha{
+    height: 30px;
+    width: 450px;
+}
+.question{
+    height: 30px;
+    width: 450px;
+}
+.cangiua{
+    text-align: center;
+}
