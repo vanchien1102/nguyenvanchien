@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+<style>
+    .container{
+        width: 30%;
+        margin:0 auto;
+        line-height: 28px;
+    }
+    label{
+        float: left;
+    }
+    input{
+        float: right;
+    }
+    button{
+        float: right;
+    }
+    p{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <label for="numberOfChildren">Number of children</label>
+        <input type="text" name="numberOfChildren" id="numberOfChildren"> <br>
+        <label for="partnerSName">Partner's Name</label>
+        <input type="text" name="partnerSName" id="partnerSName"> <br>
+        <label for="geographicLocation">Geographic Location</label>
+        <input type="text" name="geographicLocation" id="geographicLocation"><br>
+        <label for="jobTitle">Job title</label>
+        <input type="text" name="jobTitle" id="jobTitle"><br>
+        <button onclick="tellFortune()">Tell Fortune</button><br>
+        <p id="result"></p>
+    </div>
+    <script>
+        function tellFortune(){
+            var numberOfChildren=document.getElementById("numberOfChildren");
+            var partnerSName=document.getElementById("partnerSName");
+            var geographicLocation=document.getElementById("geographicLocation");
+            var jobTitle=document.getElementById("jobTitle");
+            var result=document.getElementById("result");
+            result.innerHTML+='You will be a '+ jobTitle.value +' in '+geographicLocation.value+', and married to '+ partnerSName.value+' with '+numberOfChildren.value;
+            if(parseInt(numberOfChildren.value)>1){
+                result.innerHTML+=' kids';
+            }else{
+                result.innerHTML+=' kid';
+            }
+        }
+    </script>
+</body>
+</html>

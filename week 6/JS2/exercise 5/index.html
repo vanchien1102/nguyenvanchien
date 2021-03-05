@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" name="checkAll" id="check-all">
+        <label for="checkAll">Check all</label> <br>
+        <input type="checkbox" name="item1" id="item-1">
+        <label for="checkAll">Item 1</label> <br>
+        <input type="checkbox" name="item2" id="item-2">
+        <label for="checkAll">Item 2</label> <br>
+        <input type="checkbox" name="item3" id="item-3">
+        <label for="checkAll">Item 3</label> <br>
+        <input type="checkbox" name="item4" id="item-4">
+        <label for="checkAll">Item 4</label> <br>
+        <input type="checkbox" name="item5" id="item-5">
+        <label for="checkAll">Item 5</label> <br>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(document).on("click","#check-all",function(){
+                if($(this).prop("checked")===true){
+                    $(this).nextAll().prop("checked",true);
+                }else{
+                    $(this).nextAll().prop("checked",false);
+                }
+            })
+            $("input:not(:first)").on("click",function(){
+                if($(this).prop("checked")===false){
+                    $("input:first").prop("checked",false);
+                }
+            })
+        })
+    </script>
+</body>
+</html>

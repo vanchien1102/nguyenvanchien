@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Giải phương trình bậc nhất ax + b = 0</h3>
+        <label for="numberA">Nhập vào hệ số a:</label>
+        <input type="text" name="numberA" id="numberA">
+        <label for="numberB">Nhập vào hệ số b:</label>
+        <input type="text" name="numberB" id="numberB">
+        <p>Phương trình bậc nhất của bạn đang có dạng</p>
+        <p id="equation"></p>
+        <button onclick="findX()" onmouseover="showEquation()">Tìm X</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function showEquation(){
+            var numberA=parseInt(document.getElementById("numberA").value);
+            var numberB=parseInt(document.getElementById("numberB").value);
+            document.getElementById("equation").innerHTML= numberA+"x "+" + "+numberB +"=0";
+        }
+        function findX(){
+            var numberA=parseInt(document.getElementById("numberA").value);
+            var numberB=parseInt(document.getElementById("numberB").value);
+            document.getElementById("result").innerHTML="x= "+(-numberB/numberA);
+        }
+    </script>
+</body>
+</html>

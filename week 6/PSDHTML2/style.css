@@ -1,0 +1,21 @@
+.size-logo{
+	font-size: 30px!important;
+}
+.smallLogoContent{
+	top: -22px;
+    position: relative;
+    font-size: 10px;
+}
+.bg-footer{
+	background-color: #1e1c1c;
+}
+@media (max-width: 776px){
+	.bg-footer{
+		font-size: 10px!important;
+	}
+}
+@media (max-width: 876px){
+	.bg-footer{
+		font-size: 12px!important;
+	}
+}

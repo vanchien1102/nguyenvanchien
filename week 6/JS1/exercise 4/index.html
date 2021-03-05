@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Tìm giai thừa</h3>
+        <label for="number">Nhập vào hệ số giai thừa</label>
+        <input type="text" name="number" id="number"><br>
+        <button onclick="calculate()">Tính giai thừa</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function calculate(){
+            var number=parseInt(document.getElementById("number").value);
+            var result=1;
+            document.getElementById("result").innerHTML=number+"!="
+            for (var i=1;i<=number;i++){
+                result*=i;
+                if(i==number){
+                    document.getElementById("result").innerHTML+=i+" = "+result;
+                }else{
+                    document.getElementById("result").innerHTML+=i+'*';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
