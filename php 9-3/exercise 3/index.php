@@ -10,6 +10,6 @@ echo $tong;
 while ($i <50) {
     $tong += $i;
     if ($i%3==0)
-    $i++;
+        $i++;
 }
 echo $tong;
